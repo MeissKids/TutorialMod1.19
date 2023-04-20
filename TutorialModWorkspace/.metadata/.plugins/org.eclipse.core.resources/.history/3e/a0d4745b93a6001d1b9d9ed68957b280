@@ -1,0 +1,13 @@
+package com.meissner.firstmod;
+
+import net.minecraftforge.fml.common.Mod;
+
+@Mod("firstmod")
+
+public class firstmod {
+	
+public firstmod() {
+	MinecraftForge.EVENT_BUS.register(this);
+}
+
+}

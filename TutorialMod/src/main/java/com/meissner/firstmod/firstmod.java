@@ -1,0 +1,30 @@
+package com.meissner.firstmod;
+
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.common.Mod;
+
+@Mod("firstmod")
+
+public class firstmod {
+	
+public firstmod() {
+	MinecraftForge.EVENT_BUS.register(this);
+}
+
+
+
+
+String myname;
+
+int mynumber;
+
+double mydecimalnumber; 
+
+
+//CreativeModeTab MyTab; 
+
+
+
+
+}
